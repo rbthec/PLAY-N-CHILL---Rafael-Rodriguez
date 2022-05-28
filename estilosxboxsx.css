@@ -23,6 +23,13 @@ h1{
     font-weight: bold;
     color: rgb(0, 0, 0);
     font-size: 4em;
+    transition: all 2s ease;
+}
+
+h1:hover{
+    background-color:rgb(52, 160, 255);
+    transform: skew(10deg);
+    border-radius: 0%;
 }
 
 .menu{
@@ -84,8 +91,15 @@ h1{
 }
 
 #letras{
-    border:3px rgb(0, 30, 255) solid;
+    border: 3px rgb(0, 30, 255) solid;
     height: auto;
+    transition: all 2s ease;
+}
+
+#letras:hover{
+    background-color:rgb(52, 160, 255);
+    transform: skew(10deg);
+    border-radius: 0%;
 }
 
 #img{

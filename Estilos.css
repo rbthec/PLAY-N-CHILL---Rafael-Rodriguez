@@ -23,6 +23,12 @@ h1{
     font-weight: bold;
     color: rgb(0, 0, 0);
     font-size: 4em;
+    transition: all 2s ease;
+}
+
+h1:hover{
+    transform: skew(10deg);
+    border-radius: 0%;
 }
 
 .menu{
@@ -87,7 +93,19 @@ h1{
 
 #letras{
     border: 3px rgb(0, 30, 255) solid;
+    transition: all 2s ease;
+
 }
+
+
+
+#letras:hover{
+    background-color:rgb(52, 160, 255); 
+    transform: skew(10deg);
+    border-radius: 0%;
+}
+
+
 
 .letras-1{
     font-family: 'Roboto Flex', sans-serif;
@@ -104,14 +122,13 @@ h1{
 
 
 .img-1{
-
-    border: 20px solid rgb(52, 160, 255);
-   background-color:rgb(52, 160, 255); 
+   border: 15px solid rgb(52, 160, 255);
+   background: radial-gradient( rgb(255, 255, 255), rgb(52, 160, 255) ,rgb(42, 59, 255) );
    grid-area: img-1;
    width: 600px;
    height: 380px;
-   padding-left: 10px;
-    
+   padding-left: 7px;
+   padding-top:40px;
 }
 
 
