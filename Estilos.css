@@ -31,6 +31,8 @@ h1:hover{
     border-radius: 0%;
 }
 
+/*Le agregue transciciones,transforrmaciones al logo principal de la pagina, se aplico en todos los archivos css.*/
+
 .menu{
    margin: auto;
    padding: 0%;
@@ -61,7 +63,6 @@ h1:hover{
     text-align: center;
 }
 
-/*Contenedor padre donde aplico grid para la estructura principal de las cajas y flexbox para el orden exacto de cada caja con su contenido*/
 
 .contenedorp{
     display: grid;
@@ -90,6 +91,9 @@ h1:hover{
     
     ;
 }
+
+
+/*Le agregue transciciones,transforrmaciones y una gradiente, a todos mis contenedores #letras para las definicioones de cada juego y consola, se aplico en todos los archivos css.*/
 
 #letras{
     border: 3px rgb(0, 30, 255) solid;
